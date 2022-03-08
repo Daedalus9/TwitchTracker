@@ -12,5 +12,5 @@ Track watch time of 250 most popular italian Twitch streamer
 git clone https://github.com/Daedalus9/TwitchTracker
 cd TwitchTracker
 pip3 install requests
-python3 TwitchTracker
+python3 main.py
 ```
