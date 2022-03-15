@@ -6,6 +6,7 @@ Track watch time of 300 most popular italian Twitch streamer
 
 - python3
 - requests
+- glob
 
 ## :zap: Usage
 ```bash
@@ -16,4 +17,5 @@ python3 main.py [option]
 
 --search        Search without store informations
 --store         Search and store informations
+--delete        Delete all streamer files
 ```
