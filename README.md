@@ -1,6 +1,6 @@
 #TwitchTracker
 
-Track watch time of 250 most popular italian Twitch streamer
+Track watch time of 300 most popular italian Twitch streamer
 
 ## :notebook: Requirements
 
