@@ -2,6 +2,7 @@ import sys
 from module.search import search
 from module.store import store
 from module.delete import delete
+from module.plots import plots
 from module.help import help
 
 def main():
@@ -13,6 +14,8 @@ def main():
             store()
         elif args[0] == '--delete':
             delete()
+        elif args[0] == '--plots':
+            plots()
         elif args[0] == '--help':
             help()
         else:
