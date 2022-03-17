@@ -19,5 +19,6 @@ python3 main.py [option]
 --store         Search and store informations
 --delete        Delete all streamer files
 --plots         Create all plots from streamer files
+--delete_plots  Delete all plots from streamer files
 --help          Show help
 ```
