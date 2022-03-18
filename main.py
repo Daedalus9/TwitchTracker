@@ -4,6 +4,7 @@ from module.store import store
 from module.delete import delete
 from module.plots import plots
 from module.delete_plots import delete_plots
+from module.streamer_dump import streamer_dump
 from module.help import help
 
 def main():
@@ -19,6 +20,8 @@ def main():
             plots()
         elif args[0] == '--delete_plots':
             delete_plots()
+        elif args[0] == '--dump':
+            streamer_dump()
         elif args[0] == '--help':
             help()
         else:
