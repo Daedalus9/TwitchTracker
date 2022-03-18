@@ -20,5 +20,6 @@ python3 main.py [option]
 --delete        Delete all streamer files
 --plots         Create all plots from streamer files
 --delete_plots  Delete all plots from streamer files
+--dump          Dump streamer list
 --help          Show help
 ```
